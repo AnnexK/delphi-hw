@@ -27,7 +27,7 @@ begin
   S.Add('selsort', TSelectionSort.Create);
   S.Add('bubblesort', TBubbleSort.Create);
   S.Add('inssort', TInsertionSort.Create);
-  S.Add('heapsort', THeapSort.Create);
+  // S.Add('heapsort', THeapSort.Create);
 end;
 
 procedure Invite(S : Sorters);
